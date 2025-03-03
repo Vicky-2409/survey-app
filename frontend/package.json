@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite",
-    "build": "tsc --skipLibCheck -b && vite build",
+    "build": "tsc --skipLibCheck && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "tailwind-version": "tailwindcss -v"
