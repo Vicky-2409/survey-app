@@ -4,7 +4,7 @@
   "description": "Backend for Survey Submission Application",
   "main": "dist/app.js",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "node dist/app.js & npx ts-node src/utils/seed.ts",
     "dev": "nodemon src/app.ts",
     "build": "tsc",
     "seed": "ts-node src/utils/seed.ts",
